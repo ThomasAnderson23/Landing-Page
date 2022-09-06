@@ -1,0 +1,44 @@
+body {
+    background-color: white !important; 
+    color: rgb(27, 25, 23) !important;
+    font-family: philosopher;
+}   
+.login {
+   text-align: right; 
+}
+.signup {
+    text-align: right;
+}
+img {
+    float:right;
+    height: 480px;
+    position:relative;
+
+}
+container {
+    position: relative;
+    padding: 5%;
+    text-align: center;
+    
+}  
+
+.jumbotron {
+    position:relative;
+    display: flex;
+}
+
+.titulo {
+    text-align: justify;
+}
+
+header {
+    display: ruby-base;
+    background-color: aliceblue;
+    
+}
+
+.logotipo {
+    width: auto;
+    max-height: 80px;
+
+}
