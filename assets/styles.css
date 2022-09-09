@@ -1,29 +1,132 @@
 body {
-    background-color: white !important; 
+    background-color: white !important;
     color: rgb(27, 25, 23) !important;
-    font-family: philosopher;
-}   
-.login {
-   text-align: right; 
-}
-.signup {
-    text-align: right;
-}
-img {
-    float:right;
-    height: 480px;
+    font-family: 'Paytone+One'!important;
+    font-family: 'Raleway', sans-serif !important;
 }
 
-.titulo {
-    text-align: justify;
-}
-
-header {
-    display: ruby-base;
+.header {
+    position:fixed;
+    width: 100%;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
 }
 
 .logotipo {
-    width: auto;
-    max-height: 80px;
-
+    max-height: 70px;
 }
+
+.inicia-sesion {
+    padding: 30px;
+}
+
+.registro {
+    padding-right: 120px;
+}
+
+/* Problema Acá*/
+img {
+    float: right;
+    height: 480px;
+}
+
+.practica {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.ready {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+.animacion1 {
+    margin-top: 100px;
+}
+
+.servicios {
+    padding: 30px;
+    font-size: 60px;
+    font-family: sans-serif;
+    color: rgba(228,35,68,255)
+}
+
+.basico {
+    font-size: larger;
+    margin: 20px;
+    border: 1px solid;
+    border-color: black;
+}
+
+.intermedio {
+    font-size: larger;
+    margin: 20px;
+    border: 1px solid;
+    border-color: black;
+}
+
+.avanzado {
+    font-size: larger;
+    margin: 20px;
+    border: 1px solid;
+    border-color: black;
+}
+
+.quote { 
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 120px;
+}
+
+.footerimg {
+    float: left;
+    height: 120px;
+    margin-bottom: 40px;
+}
+
+.frow1 {
+    padding-top: 25px;
+}
+
+.frow2 {
+    padding-top: 25px;
+}
+
+.frow3 {
+    padding-top: 25px;
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+    .fix-jumbo { 
+        margin-top: 150px;
+    }
+    .navbar {
+        margin-top: 0px;
+    }
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+    .fix-jumbo { 
+        margin-top: 150px; 
+    }
+    }
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {  
+    .fix-jumbo { 
+        margin-top: 0px;}
+}
+
+/*X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+     .fix-jumbo { 
+    margin-top: 0px; }
+     }
+
+/*XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) { 
+    .fix-jumbo { 
+        margin-top: 0px;
+    }
+ }
