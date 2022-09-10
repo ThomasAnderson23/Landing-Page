@@ -5,16 +5,19 @@ body {
     font-family: 'Raleway', sans-serif !important;
 }
 
-.header {
-    position:fixed;
-    width: 100%;
+header {
+    position:sticky;
+    top: 0;
     font-size: large;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 1px solid black;
+    width: 100%;
     
 }
 
 .logotipo {
     max-height: 70px;
+    width: 100%;
 }
 
 .inicia-sesion {
@@ -26,7 +29,7 @@ body {
 }
 
 /* Problema Acá*/
-img {
+.img {
     float: right;
     height: 480px;
 }
@@ -52,81 +55,52 @@ img {
 
 .basico {
     font-size: larger;
-    margin: 20px;
-    border: 1px solid;
+    border: 1px solid black;
     border-color: black;
 }
 
 .intermedio {
     font-size: larger;
-    margin: 20px;
-    border: 1px solid;
+    border: 1px solid black;
     border-color: black;
 }
 
 .avanzado {
     font-size: larger;
-    margin: 20px;
-    border: 1px solid;
+    border: 1px solid black;
     border-color: black;
+}
+
+.learner {
+
 }
 
 .quote { 
     font-size: 30px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding-top: 120px;
+    padding-top: 200px;
+    padding-left: 80px;
 }
 
 .footerimg {
     float: left;
-    height: 120px;
+    height: 60px;
+    width: 100%;
     margin-bottom: 40px;
 }
 
-.frow1 {
-    padding-top: 25px;
-}
 
-.frow2 {
-    padding-top: 25px;
-}
-
-.frow3 {
-    padding-top: 25px;
-}
 
 /* Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) { 
-    .fix-jumbo { 
-        margin-top: 150px;
-    }
-    .navbar {
-        margin-top: 0px;
-    }
- }
+
 
 /* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) { 
-    .fix-jumbo { 
-        margin-top: 150px; 
-    }
-    }
+
 
 /*Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) {  
-    .fix-jumbo { 
-        margin-top: 0px;}
-}
+
 
 /*X-Large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) { 
-     .fix-jumbo { 
-    margin-top: 0px; }
-     }
+
 
 /*XX-Large devices (larger desktops, 1400px and up)*/
-@media (min-width: 1400px) { 
-    .fix-jumbo { 
-        margin-top: 0px;
-    }
- }
