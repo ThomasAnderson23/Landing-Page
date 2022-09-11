@@ -71,22 +71,22 @@ header {
     border-color: black;
 }
 
-.learner {
-
-}
 
 .quote { 
     font-size: 30px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding-top: 200px;
-    padding-left: 80px;
+    padding-top: 80px;
+ 
 }
 
 .footerimg {
     float: left;
     height: 60px;
-    width: 100%;
-    margin-bottom: 40px;
+
+}
+
+ul {
+    list-style: none;
 }
 
 
@@ -104,3 +104,5 @@ header {
 
 
 /*XX-Large devices (larger desktops, 1400px and up)*/
+
+
